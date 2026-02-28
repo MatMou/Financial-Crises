@@ -1,0 +1,79 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+project:
+  title: "Economic and Financial Crises: History, Theory, and Policy"
+  description: >
+    A course examining the causes, dynamics, and consequences of economic and
+    financial crises from the 19th century to the present.
+  keywords:
+    - financial crises
+    - banking crises
+    - macroeconomics
+    - economic history
+    - financial regulation
+  github: https://github.com/MathMou/crises-course
+  license: CC-BY-4.0
+  subject: Finance
+  venue: Open Course Materials
+
+  toc:
+    - file: index.md
+    - title: "Part I — Foundations"
+      children:
+        - file: sessions/session_01_introduction.md
+          children:
+            - file: sessions/session_01/s01_1_defining_crises.md
+            - file: sessions/session_01/s01_2_types_of_crises.md
+            - file: sessions/session_01/s01_3_this_time_is_different.md
+            - file: sessions/session_01/s01_4_taxonomy_databases.md
+            - file: sessions/session_01/s01_5_stylized_facts.md
+            - file: sessions/session_01/s01_6_first_look_data.md
+        - file: sessions/session_02_theoretical_foundations.md
+        - file: sessions/session_03_macroeconomics_of_crises.md
+    - title: "Part II — Historical Crises"
+      children:
+        - file: sessions/session_04_early_crises_gold_standard.md
+        - file: sessions/session_05_great_depression.md
+        - file: sessions/session_06_bretton_woods.md
+        - file: sessions/session_07_emerging_market_crises_1990s.md
+        - file: sessions/session_08_dotcom_bubble.md
+    - title: "Part III — The Global Financial Crisis"
+      children:
+        - file: sessions/session_09_gfc_buildup.md
+        - file: sessions/session_10_gfc_unfolding.md
+        - file: sessions/session_11_gfc_policy_responses.md
+        - file: sessions/session_12_european_debt_crisis.md
+    - title: "Part IV — Modern Challenges"
+      children:
+        - file: sessions/session_13_covid_crisis.md
+        - file: sessions/session_14_crypto_crises.md
+        - file: sessions/session_15_emerging_risks.md
+    - title: "Part V — Analytics and Policy"
+      children:
+        - file: sessions/session_16_measuring_detecting_crises.md
+        - file: sessions/session_17_crisis_policy_toolkit.md
+        - file: sessions/session_18_synthesis_debate.md
+
+  math:
+    '\E': '\mathbb{E}'
+    '\R': '\mathbb{R}'
+    '\P': '\mathbb{P}'
+
+site:
+  title: "Economic and Financial Crises"
+  nav:
+    - title: Home
+      url: /
+    - title: Sessions
+      children:
+        - title: "1. Introduction"
+          url: /sessions/session_01_introduction
+        - title: "2. Theoretical Foundations"
+          url: /sessions/session_02_theoretical_foundations
+        - title: "3. Macroeconomics of Crises"
+          url: /sessions/session_03_macroeconomics_of_crises
+  options:
+    favicon: ""
+    logo: ""
+  template: book-theme
