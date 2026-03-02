@@ -30,7 +30,21 @@ project:
             - file: sessions/session_01/s01_5_stylized_facts.md
             - file: sessions/session_01/s01_6_first_look_data.md
         - file: sessions/session_02_theoretical_foundations.md
+          children:
+            - file: sessions/session_02/s02_1_classical_foundations.md
+            - file: sessions/session_02/s02_2_minsky.md
+            - file: sessions/session_02/s02_3_information_asymmetries.md
+            - file: sessions/session_02/s02_4_bank_runs_contagion.md
+            - file: sessions/session_02/s02_5_financial_accelerator.md
+            - file: sessions/session_02/s02_6_bubbles.md
         - file: sessions/session_03_macroeconomics_of_crises.md
+          children:
+            - file: sessions/session_03/s03_1_credit_booms.md
+            - file: sessions/session_03/s03_2_balance_sheet_recessions.md
+            - file: sessions/session_03/s03_3_sudden_stops.md
+            - file: sessions/session_03/s03_4_sovereign_bank_nexus.md
+            - file: sessions/session_03/s03_5_zero_lower_bound.md
+            - file: sessions/session_03/s03_6_fiscal_policy.md
     - title: "Part II — Historical Crises"
       children:
         - file: sessions/session_04_early_crises_gold_standard.md
