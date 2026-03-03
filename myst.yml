@@ -48,8 +48,29 @@ project:
     - title: "Part II — Historical Crises"
       children:
         - file: sessions/session_04_early_crises_gold_standard.md
+          children:
+            - file: sessions/session_04/s04_1_early_manias.md
+            - file: sessions/session_04/s04_2_classical_gold_standard.md
+            - file: sessions/session_04/s04_3_banking_panics_19c.md
+            - file: sessions/session_04/s04_4_panic_1907.md
+            - file: sessions/session_04/s04_5_periphery_crises.md
+            - file: sessions/session_04/s04_6_lessons.md
         - file: sessions/session_05_great_depression.md
+          children:
+            - file: sessions/session_05/s05_1_roaring_twenties.md
+            - file: sessions/session_05/s05_2_crash_banking_crises.md
+            - file: sessions/session_05/s05_3_gold_standard_transmission.md
+            - file: sessions/session_05/s05_4_competing_explanations.md
+            - file: sessions/session_05/s05_5_policy_recovery.md
+            - file: sessions/session_05/s05_6_institutional_legacy.md
         - file: sessions/session_06_bretton_woods.md
+          children:
+            - file: sessions/session_06/s06_1_design_bretton_woods.md
+            - file: sessions/session_06/s06_2_golden_age.md
+            - file: sessions/session_06/s06_3_triffin_collapse.md
+            - file: sessions/session_06/s06_4_floating_petrodollar.md
+            - file: sessions/session_06/s06_5_latin_american_debt.md
+            - file: sessions/session_06/s06_6_savings_loan.md
         - file: sessions/session_07_emerging_market_crises_1990s.md
         - file: sessions/session_08_dotcom_bubble.md
     - title: "Part III — The Global Financial Crisis"
