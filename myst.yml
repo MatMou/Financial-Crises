@@ -108,6 +108,12 @@ site:
           url: /sessions/session_02_theoretical_foundations
         - title: "3. Macroeconomics of Crises"
           url: /sessions/session_03_macroeconomics_of_crises
+        - title: "4. Early Crises"
+          url: /sessions/session_04_early_crises_gold_standard
+        - title: "5. The Great Depression"
+          url: /sessions/session_05_great_depression
+        - title: "6. Bretton Woods"
+          url: /sessions/session_06_bretton_woods
   options:
     favicon: ""
     logo: ""
