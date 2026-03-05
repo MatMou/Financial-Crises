@@ -72,13 +72,55 @@ project:
             - file: sessions/session_06/s06_5_latin_american_debt.md
             - file: sessions/session_06/s06_6_savings_loan.md
         - file: sessions/session_07_emerging_market_crises_1990s.md
+          children:
+            - file: sessions/session_07/s07_1_erm_crisis.md
+            - file: sessions/session_07/s07_2_tequila_crisis.md
+            - file: sessions/session_07/s07_3_asian_crisis.md
+            - file: sessions/session_07/s07_4_russia_ltcm.md
+            - file: sessions/session_07/s07_5_contagion.md
+            - file: sessions/session_07/s07_6_lessons_reform.md
         - file: sessions/session_08_dotcom_bubble.md
+          children:
+            - file: sessions/session_08/s08_1_new_economy.md
+            - file: sessions/session_08/s08_2_dotcom_bubble.md
+            - file: sessions/session_08/s08_3_crash.md
+            - file: sessions/session_08/s08_4_corporate_governance.md
+            - file: sessions/session_08/s08_5_greenspan_put.md
+            - file: sessions/session_08/s08_6_seeds_housing.md
     - title: "Part III — The Global Financial Crisis"
       children:
         - file: sessions/session_09_gfc_buildup.md
+          children:
+            - file: sessions/session_09/s09_1_housing_bubble.md
+            - file: sessions/session_09/s09_2_subprime_otd.md
+            - file: sessions/session_09/s09_3_securitization.md
+            - file: sessions/session_09/s09_4_credit_default_swaps.md
+            - file: sessions/session_09/s09_5_shadow_banking.md
+            - file: sessions/session_09/s09_6_ratings_regulation.md
         - file: sessions/session_10_gfc_unfolding.md
+          children:
+            - file: sessions/session_10/s10_1_first_tremors.md
+            - file: sessions/session_10/s10_2_bear_stearns.md
+            - file: sessions/session_10/s10_3_september_panic.md
+            - file: sessions/session_10/s10_4_shadow_bank_run.md
+            - file: sessions/session_10/s10_5_global_contagion.md
+            - file: sessions/session_10/s10_6_real_economy.md
         - file: sessions/session_11_gfc_policy_responses.md
+          children:
+            - file: sessions/session_11/s11_1_emergency_interventions.md
+            - file: sessions/session_11/s11_2_unconventional_monetary.md
+            - file: sessions/session_11/s11_3_fiscal_stimulus.md
+            - file: sessions/session_11/s11_4_regulatory_reform.md
+            - file: sessions/session_11/s11_5_slow_recovery.md
+            - file: sessions/session_11/s11_6_preventing_depression.md
         - file: sessions/session_12_european_debt_crisis.md
+          children:
+            - file: sessions/session_12/s12_1_eurozone_architecture.md
+            - file: sessions/session_12/s12_2_periphery_boom.md
+            - file: sessions/session_12/s12_3_greece.md
+            - file: sessions/session_12/s12_4_ireland_spain_others.md
+            - file: sessions/session_12/s12_5_ecb_whatever_it_takes.md
+            - file: sessions/session_12/s12_6_austerity_lessons.md
     - title: "Part IV — Modern Challenges"
       children:
         - file: sessions/session_13_covid_crisis.md
@@ -114,6 +156,18 @@ site:
           url: /sessions/session_05_great_depression
         - title: "6. Bretton Woods"
           url: /sessions/session_06_bretton_woods
+        - title: "7. Emerging Market Crises"
+          url: /sessions/session_07_emerging_market_crises_1990s
+        - title: "8. Dot-Com Bubble"
+          url: /sessions/session_08_dotcom_bubble
+        - title: "9. GFC Build-Up"
+          url: /sessions/session_09_gfc_buildup
+        - title: "10. GFC Unfolding"
+          url: /sessions/session_10_gfc_unfolding
+        - title: "11. GFC Policy Response"
+          url: /sessions/session_11_gfc_policy_responses
+        - title: "12. European Debt Crisis"
+          url: /sessions/session_12_european_debt_crisis
   options:
     favicon: ""
     logo: ""
