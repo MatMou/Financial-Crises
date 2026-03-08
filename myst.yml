@@ -124,13 +124,55 @@ project:
     - title: "Part IV — Modern Challenges"
       children:
         - file: sessions/session_13_covid_crisis.md
+          children:
+            - file: sessions/session_13/s13_1_pandemic_shock.md
+            - file: sessions/session_13/s13_2_market_panic.md
+            - file: sessions/session_13/s13_3_fiscal_response.md
+            - file: sessions/session_13/s13_4_fed_market_maker.md
+            - file: sessions/session_13/s13_5_inflation_tightening.md
+            - file: sessions/session_13/s13_6_lessons.md
         - file: sessions/session_14_crypto_crises.md
+          children:
+            - file: sessions/session_14/s14_1_crypto_echoes.md
+            - file: sessions/session_14/s14_2_terra_luna.md
+            - file: sessions/session_14/s14_3_crypto_contagion.md
+            - file: sessions/session_14/s14_4_ftx.md
+            - file: sessions/session_14/s14_5_defi.md
+            - file: sessions/session_14/s14_6_policy_cbdc.md
         - file: sessions/session_15_emerging_risks.md
+          children:
+            - file: sessions/session_15/s15_1_china_property.md
+            - file: sessions/session_15/s15_2_climate_risk.md
+            - file: sessions/session_15/s15_3_sovereign_debt.md
+            - file: sessions/session_15/s15_4_ai_algorithmic.md
+            - file: sessions/session_15/s15_5_geopolitical.md
+            - file: sessions/session_15/s15_6_next_crisis.md
     - title: "Part V — Analytics and Policy"
       children:
         - file: sessions/session_16_measuring_detecting_crises.md
+          children:
+            - file: sessions/session_16/s16_1_early_warning.md
+            - file: sessions/session_16/s16_2_credit_indicators.md
+            - file: sessions/session_16/s16_3_systemic_risk_measures.md
+            - file: sessions/session_16/s16_4_stress_indices.md
+            - file: sessions/session_16/s16_5_yield_curves_spreads.md
+            - file: sessions/session_16/s16_6_limits.md
         - file: sessions/session_17_crisis_policy_toolkit.md
+          children:
+            - file: sessions/session_17/s17_1_macroprudential.md
+            - file: sessions/session_17/s17_2_lender_last_resort.md
+            - file: sessions/session_17/s17_3_deposit_insurance_resolution.md
+            - file: sessions/session_17/s17_4_capital_controls.md
+            - file: sessions/session_17/s17_5_imf_international.md
+            - file: sessions/session_17/s17_6_political_economy.md
         - file: sessions/session_18_synthesis_debate.md
+          children:
+            - file: sessions/session_18/s18_1_inherent_to_capitalism.md
+            - file: sessions/session_18/s18_2_too_big_to_fail.md
+            - file: sessions/session_18/s18_3_regulation_innovation.md
+            - file: sessions/session_18/s18_4_canon_of_lessons.md
+            - file: sessions/session_18/s18_5_next_crisis.md
+            - file: sessions/session_18/s18_6_final_reflections.md
 
   math:
     '\E': '\mathbb{E}'
@@ -168,6 +210,18 @@ site:
           url: /sessions/session_11_gfc_policy_responses
         - title: "12. European Debt Crisis"
           url: /sessions/session_12_european_debt_crisis
+        - title: "13. COVID-19 Crisis"
+          url: /sessions/session_13_covid_crisis
+        - title: "14. Crypto Crises"
+          url: /sessions/session_14_crypto_crises
+        - title: "15. Emerging Risks"
+          url: /sessions/session_15_emerging_risks
+        - title: "16. Measuring & Detecting Crises"
+          url: /sessions/session_16_measuring_detecting_crises
+        - title: "17. Crisis Prevention & Management"
+          url: /sessions/session_17_crisis_policy_toolkit
+        - title: "18. Synthesis & Debate"
+          url: /sessions/session_18_synthesis_debate
   options:
     favicon: ""
     logo: ""
